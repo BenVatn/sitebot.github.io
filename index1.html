@@ -3,18 +3,10 @@
 <head>
 
     <title>Кликер</title>
-    <script src="https://telegram.org/js/telegram-web-app.js">
-<!--    var clickCount = 0;-->
-
-<!--    function handleClick() {-->
-<!--        clickCount++;-->
-<!--        document.getElementById("clickCount").innerText = "Количество кликов: " + tg.initData;-->
-<!--    }-->
-    </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         var WebApp = window.Telegram.WebApp;
-
-WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+        WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
     </script>
 </head>
 <body>
